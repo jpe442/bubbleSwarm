@@ -8,16 +8,23 @@ The game leverages the intrinsic satisfaction of popping a bubble and simple ple
 
 bubbleSort features:
 
-  - random bubble generation of various bubble-types to populate game screen
+  - random bubble generation of various clickable bubble-types to populate screen
+
   - stage-timer/display
+
   - score display
+
   - start, pause and restart buttons
+
   - an About modal describing basic rules
 
 ## Wireframes
 
-The game consists of one main view primarilycomprised of a dashboard and game screen. The dashboard has buttons to (a) start a new game (b) pause the game or (c)bring up the About page modal to view the game rules. Once the timer finishes counting, points are calculated and either the game is over or the next stage begins.
+The game consists of one main view primarilycomprised of a dashboard and game screen. The dashboard has buttons to (a) start a new game (b) pause the game, or (c) call up the About page modal to view the game rules. Once the timer finishes counting, points are calculated and either the game is over or the next stage begins.
 
+
+
+Wireframe here...
 
 
 
@@ -37,23 +44,37 @@ game.js: this script will house the overall procedural game logic, timer, stage,
 
 ## Implementation Timeline
 
-  -Over the weekend: Went back over asteroids to reacquaint with the implementation of a basic physics framework and HTML 5 Canvas.
+- Over the weekend: 
+[ ] Go back over my asteroids project to reacquaint with the implementation of a basic physics framework and HTML 5 Canvas.
 
-  -Day 1: Webpack setup, bubbles bouncing, click to destroy bubbles
+- Day 1: Webpack setup, bubbles bouncing with inertia in gravity, click to destroy bubbles
 
-  -Day 2: Tune gravity, shrink(/enlarge) effect, screen dashboard layout
+[ ] Node and Webpack setup
+[ ] Basic layout index page
+[ ] Implement various & random bubble spawn(s), bouncy walls, bouncy bubbles
 
-  -Day 3: Points and "stage"/"timer" other final gameplay logic
+- Day 2: Effects and dashboard
+[ ] Final tune gravity
+[ ] Shrink(/enlarge) effect(s)
+[ ] Dashboard basic layout functionalty
 
-  -Day 4: Final styling and other final aesthetic touches
+- Day 3: Final gameplay logic & functionality
+[ ] Points and "stage"/"timer"
+[ ] Increase difficulty functionality
+[ ] Pause, new game, and About modal
 
-  -Bonus Features:
+- Day 4: Final styling and other final aesthetic touches
+[ ] Smooth & appealing CSS
+[ ] Final tune gameplay
 
-    + special effect bubbles (spread-effect, flash-effect)
-    + simple sound effects (bubble popping, etc...)
-    + speed adjustment slider
-    + physics adjustment slider
-    + number of bubbles at once slider
+- Bonus Features:
+
++ special effect bubbles (spread-effect, flash-effect)
++ simple sound effects (bubble popping, etc...)
++ speed adjustment slider
++ physics adjustment slider
++ number of bubbles at once slider
++ choose API call to fill bubbles with random messages ()
 
 
 
