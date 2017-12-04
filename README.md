@@ -23,7 +23,7 @@ bubbleSort features:
 The game consists of one main view primarily comprised of a dashboard and game screen. The dashboard consists of timer and points scoreboard as well as buttons to (a) start a new game (b) pause the game, or (c) call up the About page modal to view the game rules. Once the timer finishes counting, points are calculated and either the game is over or the next stage begins.
 
 
-
+![](https://github.com/jpe442/bubbleswarm/blob/master/wireframe/bubbleswarm.png)
 
 
 ## Architecture and Technologies
