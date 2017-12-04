@@ -1,0 +1,20 @@
+{
+  "name": "bubbleswarm",
+  "version": "1.0.0",
+  "description": "bubbleSwarm is a simple click/tap game in which bubbles of various sizes bounce around a screen for a given amount of time. \"Popping\" certain bubbles awards the player with points, with some bubbles being worth more than others. Some bubbles deduct points. The goal is to attain the highest score possible within the given time allotment. Bubbles shrink in size once a level is complete, causing the game to get that much more difficult as a side-effect.",
+  "main": "practice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpe442/bubbleswarm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpe442/bubbleswarm/issues"
+  },
+  "homepage": "https://github.com/jpe442/bubbleswarm#readme"
+}
