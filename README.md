@@ -20,11 +20,9 @@ bubbleSort features:
 
 ## Wireframes
 
-The game consists of one main view primarilycomprised of a dashboard and game screen. The dashboard has buttons to (a) start a new game (b) pause the game, or (c) call up the About page modal to view the game rules. Once the timer finishes counting, points are calculated and either the game is over or the next stage begins.
+The game consists of one main view primarily comprised of a dashboard and game screen. The dashboard consists of timer and points scoreboard as well as buttons to (a) start a new game (b) pause the game, or (c) call up the About page modal to view the game rules. Once the timer finishes counting, points are calculated and either the game is over or the next stage begins.
 
 
-
-Wireframe here...
 
 
 
@@ -45,27 +43,27 @@ game.js: this script will house the overall procedural game logic, timer, stage,
 ## Implementation Timeline
 
 - Over the weekend: 
-[ ] Go back over my asteroids project to reacquaint with the implementation of a basic physics framework and HTML 5 Canvas.
+- [ ] Go back over my asteroids project to reacquaint with the implementation of a basic physics framework and HTML 5 Canvas.
 
 - Day 1: Webpack setup, bubbles bouncing with inertia in gravity, click to destroy bubbles
 
-[ ] Node and Webpack setup
-[ ] Basic layout index page
-[ ] Implement various & random bubble spawn(s), bouncy walls, bouncy bubbles
+- [ ] Node and Webpack setup
+- [ ] Basic layout index page
+- [ ] Implement various & random bubble spawn(s), bouncy walls, bouncy bubbles
 
 - Day 2: Effects and dashboard
-[ ] Final tune gravity
-[ ] Shrink(/enlarge) effect(s)
-[ ] Dashboard basic layout functionalty
+- [ ] Final tune gravity
+- [ ] Shrink(/enlarge) effect(s)
+- [ ] Dashboard basic layout functionalty
 
 - Day 3: Final gameplay logic & functionality
-[ ] Points and "stage"/"timer"
-[ ] Increase difficulty functionality
-[ ] Pause, new game, and About modal
+- [ ] Points and "stage"/"timer"
+- [ ] Increase difficulty functionality
+- [ ] Pause, new game, and About modal
 
 - Day 4: Final styling and other final aesthetic touches
-[ ] Smooth & appealing CSS
-[ ] Final tune gameplay
+- [ ] Smooth & appealing CSS
+- [ ] Final tune gameplay
 
 - Bonus Features:
 
@@ -74,7 +72,7 @@ game.js: this script will house the overall procedural game logic, timer, stage,
 + speed adjustment slider
 + physics adjustment slider
 + number of bubbles at once slider
-+ choose API call to fill bubbles with random messages ()
++ choose API call to fill bubbles with random messages (Chuck Norris quotes, Pokemon, fortune cookie messages, etc...)
 
 
 
