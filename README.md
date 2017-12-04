@@ -2,7 +2,7 @@
 
 bubbleSwarm is a simple click/tap game in which bubbles of various sizes bounce around a screen for a given amount of time. "Popping" certain bubbles awards the player with points, with some bubbles being worth more than others. Some bubbles deduct points. The goal is to attain the highest score possible within the given time allotment. Bubbles shrink in size once a level is complete, causing the game to get that much more difficult as a side-effect.
 
-The game leverages the intrinsic satisfaction of popping a bubble and simple pleasant visual experience, to create an easy-to-play and highly replayable strategy/dexterity clicker game. 
+The game leverages the intrinsic satisfaction of popping a bubble and simple pleasant visual experience to create an easy-to-play and highly replayable strategy/dexterity clicker game. 
 
 ## Functionality & MVP
 
@@ -14,7 +14,7 @@ bubbleSort features:
 
   - score display
 
-  - start, pause and restart buttons
+  - dashboard with start, pause and restart buttons
 
   - an About modal describing basic rules
 
