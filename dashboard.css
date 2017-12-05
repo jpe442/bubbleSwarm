@@ -1,3 +1,8 @@
+
+#canvas {
+  position: absolute;
+}
+
 #points-display {
   font-size: 60px;
   color: red;
@@ -5,6 +10,11 @@
   right: 2%;
 }
 
-#canvas {
+
+#timer-display {
+  color: green;
   position: absolute;
+  top: 20%;
+  right: 2%;
+  font-size: 60px;
 }
