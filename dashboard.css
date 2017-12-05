@@ -1,0 +1,10 @@
+#points-display {
+  font-size: 60px;
+  color: red;
+  position: absolute;
+  right: 2%;
+}
+
+#canvas {
+  position: absolute;
+}
