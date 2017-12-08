@@ -10,7 +10,7 @@ body {
   position: absolute;
   width: 400px;
   height: 400px;
-  background-color: rgba(211, 211, 211, 0.7);
+  background-color: rgba(211, 211, 211, 0.9);
   left: 200px;
   top: 20%;
   justify-content: space-around;
