@@ -1,7 +1,5 @@
 body {
   overflow: scroll;
-  /* display: flex; */
-  /* flex-direction: row; */
   background-color: lightgray;
 }
 
@@ -77,9 +75,7 @@ body {
 
 
 .dashboard {
-  /* border: red solid 1px; */
   position: fixed;
-  /* right: 0%; */
   height: 13.9%;
   bottom: 0%;
   width: 100%;
@@ -98,7 +94,6 @@ body {
 #canvas {
   position: absolute;
   border: solid 1px black;
-  /* width: 63.3%; */
 
 }
 
@@ -137,7 +132,6 @@ body {
   height: 14.2%;
   width: 128px;
   font-size: 120%;
-  /* border-radius: 100%; */
   overflow: hidden;
 }
 
@@ -147,11 +141,9 @@ body {
   background-color: gray;
   color: whitesmoke;
   left: 558px;
-  /* right: 5%; */
   height: 14.2%;
   width: 128px;
   font-size: 120%;
-  /* border-radius: 100%; */
   overflow: hidden;
 
 }
